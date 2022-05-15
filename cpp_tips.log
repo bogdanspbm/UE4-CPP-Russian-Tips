@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.1)  15 MAY 2022 20:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.1)  15 MAY 2022 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -902,25 +902,32 @@ Overfull \hbox (11.31998pt too wide) in paragraph at lines 69--70
 [][][][][][][][][][][][][] 
  []
 
+
+Overfull \hbox (36.74223pt too wide) in paragraph at lines 77--78
+[]\T2A/Tempora-TLF/m/n/14.4 ƒл€ со-зда-ни€ мас-си-вов в Unreal Engine CPP ис-по
+ль-зу-ет-с€ - []\T2A/Tempora-TLF/b/n/14.4 TArray<TYPE>[]\T2A/Tempora-TLF/m/n/14
+.4 ,
+ []
+
 [4] (E:\Program Files\MikTex\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (E:\Program Files\MikTex\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 83--86
+Underfull \hbox (badness 10000) in paragraph at lines 107--110
 
  []
 
 [5] [6] (cpp_tips.aux)
 Package rerunfilecheck Info: File `cpp_tips.out' has not changed.
-(rerunfilecheck)             Checksum: FB02DB5E191B3DC8B00314C0E6A46143;1135.
+(rerunfilecheck)             Checksum: 169DF4894064D34E5901CCD0113B6152;1259.
  ) 
 Here is how much of TeX's memory you used:
- 17340 strings out of 478582
- 272384 string characters out of 2854160
+ 17349 strings out of 478582
+ 272531 string characters out of 2854160
  753771 words of memory out of 3000000
- 35230 multiletter control sequences out of 15000+600000
+ 35232 multiletter control sequences out of 15000+600000
  487484 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,9n,90p,422b,1770s stack positions out of 10000i,1000n,20000p,200000b,80000s
@@ -928,9 +935,9 @@ Here is how much of TeX's memory you used:
 iles/MikTex/fonts/enc/dvips/tempora/t2a-tempora.enc}<E:/Program Files/MikTex/fo
 nts/type1/public/tempora/Tempora-Bold.pfb><E:/Program Files/MikTex/fonts/type1/
 public/tempora/Tempora-Regular.pfb>
-Output written on cpp_tips.pdf (6 pages, 82128 bytes).
+Output written on cpp_tips.pdf (6 pages, 85378 bytes).
 PDF statistics:
- 123 PDF objects out of 1000 (max. 8388607)
- 38 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 136 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

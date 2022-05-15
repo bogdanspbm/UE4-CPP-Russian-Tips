@@ -72,6 +72,30 @@ Material & UMaterial & \#include "Engine/Texture2D.h"\\
 
 \end{lstlisting}          
 
+\subsubsection{Массивы}
+
+Для создания массивов в Unreal Engine CPP используется - \href{https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/TArrays/}{\textbf{TArray<TYPE>}}, где TYPE - тип элементов массива.
+
+Синтаксис:
+
+\begin{lstlisting}           
+
+{
+      TArray<int32> indices;
+      TArray<APuzzle*> puzzles;
+};
+
+\end{lstlisting}          
+
+Основные операции с массивом:
+
+\begin{itemize}
+\item{Arr.Num() - длина массива}
+\item{Arr[Index] - элемент массива}
+\item{Arr.Add(Element) - добавить элемент массива}
+\item{Arr.RemoveAt(Index) - удаляет элемент по индексу}
+\end{itemize}
+
 \subsection{Функции}
 
 
