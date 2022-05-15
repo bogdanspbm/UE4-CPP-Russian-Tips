@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.1)  15 MAY 2022 19:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.1)  15 MAY 2022 19:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -896,24 +896,29 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (E:\Program Files\MikTex\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-) [3] [4] (cpp_tips.aux)
+)
+Underfull \hbox (badness 10000) in paragraph at lines 25--28
+
+ []
+
+[3] [4] (cpp_tips.aux)
 Package rerunfilecheck Info: File `cpp_tips.out' has not changed.
 (rerunfilecheck)             Checksum: E2B9518734C610FF83D8E5A0F424D494;460.
  ) 
 Here is how much of TeX's memory you used:
- 17253 strings out of 478582
- 270916 string characters out of 2854160
- 749686 words of memory out of 3000000
- 35173 multiletter control sequences out of 15000+600000
+ 17283 strings out of 478582
+ 271310 string characters out of 2854160
+ 753651 words of memory out of 3000000
+ 35191 multiletter control sequences out of 15000+600000
  486819 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,9n,90p,422b,1091s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 84i,9n,90p,422b,1116s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {E:/Program Files/MikTex/fonts/enc/dvips/tempora/t2a-tempora.enc}<E:/Program 
 Files/MikTex/fonts/type1/public/tempora/Tempora-Bold.pfb><E:/Program Files/MikT
 ex/fonts/type1/public/tempora/Tempora-Regular.pfb>
-Output written on cpp_tips.pdf (4 pages, 60804 bytes).
+Output written on cpp_tips.pdf (4 pages, 67236 bytes).
 PDF statistics:
- 62 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

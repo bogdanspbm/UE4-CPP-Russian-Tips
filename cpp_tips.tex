@@ -22,11 +22,23 @@
 \section{Structs}
 \subsection{Создание структуры}
 
-Для создания структуры используется пустой экземпляр класса CPP \textbf{None}. Из сгенерированных файлов необходимо удалить файл \textbf{<Name>.cpp} и оставить только \textbf{<Name>.h}. В Header файла создается следующая структура.
-
+Для создания структуры используется пустой экземпляр класса CPP \textbf{None}. Из сгенерированных файлов необходимо удалить файл \textbf{<Name>.cpp} и оставить только \textbf{<Name>.h}. В Header файла создается следующая структура:
+\\
 \lstset{language=C}          
 \begin{lstlisting}           
-void main(void){
+#pragma once
+
+#include "<Name>.generated.h"
+
+USTRUCT(BlueprintType)
+struct F<Name> : public FTableRowBase
+{
+	GENERATED_BODY()
+    
+	FORCEINLINE F<Name>();
+};
+
+FORCEINLINE F<Name>::F<Name>(){
 }
 \end{lstlisting}          
 
