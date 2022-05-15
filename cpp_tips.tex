@@ -63,7 +63,9 @@ Material & UMaterial & \#include "Engine/Texture2D.h"\\
 
 Синтаксис:
 
-\begin{lstlisting}           
+\begin{lstlisting}[
+    basicstyle=\small, %or \small or \footnotesize etc.
+]              
 
 {
       UPROPERTY(BlueprintReadWrite, Category="Params")
@@ -78,7 +80,9 @@ Material & UMaterial & \#include "Engine/Texture2D.h"\\
 
 Синтаксис:
 
-\begin{lstlisting}           
+\begin{lstlisting}[
+    basicstyle=\small, %or \small or \footnotesize etc.
+]              
 
 {
       TArray<int32> indices;
@@ -107,7 +111,9 @@ Material & UMaterial & \#include "Engine/Texture2D.h"\\
 Для создания структуры используется пустой экземпляр класса CPP \textbf{None}. Из сгенерированных файлов необходимо удалить файл \textbf{<Name>.cpp} и оставить только \textbf{<Name>.h}. В Header файла создается следующая структура:
 \\
 \lstset{language=C}          
-\begin{lstlisting}           
+\begin{lstlisting}[
+    basicstyle=\small, %or \small or \footnotesize etc.
+]              
 #pragma once
 
 #include "<Name>.generated.h"
@@ -126,8 +132,23 @@ FORCEINLINE F<Name>::F<Name>(){
 
 \newpage
 \section{AActor}
+\subsection{Spawn Actor}
+Для спауна эктора используется метод - \href{https://docs.unrealengine.com/4.26/en-US/ProgrammingAndScripting/ProgrammingWithCPP/UnrealArchitecture/Actors/Spawning/}{\textbf{SpawnActor()}}
 
+Синтаксис:
 
+\begin{lstlisting}[
+    basicstyle=\small, %or \small or \footnotesize etc.
+]   
+{
+      FVector location = FVector();
+      FRotator rotation = FRotator();
+      FActorSpawnParameters params;
+      AActor *actor = (AActor*) GetWorld()->SpawnActor(
+	AActor::StaticClass(),\&location,\&rotation,params);
+		
+};
+\end{lstlisting}         
 
 
 \end{document}
