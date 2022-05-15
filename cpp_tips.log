@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.1)  15 MAY 2022 19:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.5.1)  15 MAY 2022 20:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -891,34 +891,46 @@ TLF.
  [1
 
 {C:/Users/crewd/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-(E:\Program Files\MikTex\tex/latex/listings\lstlang1.sty
+LaTeX Font Info:    Trying to load font information for TS1+Tempora-TLF on inpu
+t line 59.
+
+(E:\Program Files\MikTex\tex/latex/tempora\ts1tempora-tlf.fd
+File: TS1Tempora-TLF.fd 2016/02/02 (autoinst) Font definitions for TS1/Tempora-
+TLF.
+) [3]
+Overfull \hbox (11.31998pt too wide) in paragraph at lines 69--70
+[][][][][][][][][][][][][] 
+ []
+
+[4] (E:\Program Files\MikTex\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2020/03/24 1.8d listings language file
 )
 (E:\Program Files\MikTex\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-Underfull \hbox (badness 10000) in paragraph at lines 25--28
+Underfull \hbox (badness 10000) in paragraph at lines 83--86
 
  []
 
-[3] [4] (cpp_tips.aux)
+[5] [6] (cpp_tips.aux)
 Package rerunfilecheck Info: File `cpp_tips.out' has not changed.
-(rerunfilecheck)             Checksum: E2B9518734C610FF83D8E5A0F424D494;460.
+(rerunfilecheck)             Checksum: FB02DB5E191B3DC8B00314C0E6A46143;1135.
  ) 
 Here is how much of TeX's memory you used:
- 17283 strings out of 478582
- 271310 string characters out of 2854160
- 753651 words of memory out of 3000000
- 35191 multiletter control sequences out of 15000+600000
- 486819 words of font info for 48 fonts, out of 8000000 for 9000
+ 17340 strings out of 478582
+ 272384 string characters out of 2854160
+ 753771 words of memory out of 3000000
+ 35230 multiletter control sequences out of 15000+600000
+ 487484 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,9n,90p,422b,1116s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{E:/Program Files/MikTex/fonts/enc/dvips/tempora/t2a-tempora.enc}<E:/Program 
-Files/MikTex/fonts/type1/public/tempora/Tempora-Bold.pfb><E:/Program Files/MikT
-ex/fonts/type1/public/tempora/Tempora-Regular.pfb>
-Output written on cpp_tips.pdf (4 pages, 67236 bytes).
+ 84i,9n,90p,422b,1770s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{E:/Program Files/MikTex/fonts/enc/dvips/tempora/tmp_ac5xuc.enc}{E:/Program F
+iles/MikTex/fonts/enc/dvips/tempora/t2a-tempora.enc}<E:/Program Files/MikTex/fo
+nts/type1/public/tempora/Tempora-Bold.pfb><E:/Program Files/MikTex/fonts/type1/
+public/tempora/Tempora-Regular.pfb>
+Output written on cpp_tips.pdf (6 pages, 82128 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -19,6 +19,64 @@
 \specialsection{Введение}
 
 \newpage
+\section{Основы}
+\subsection{Переменные}
+\subsubsection{Основные типы}
+В Unreal Engine C++ могут использоваться как и стандартные типы языка C++, так и инициализированные типы языка Blueprints. В данной таблице содержаться основные типы, которые используются при разработке на языке чертежей:
+
+\begin{center}
+\begin{tabular}{ |c|c|c| } 
+ \hline
+Название & Синтаксис C++ & Include \\ 
+ \hline
+Integer & int32 & - \\ 
+ \hline
+Float & float & - \\ 
+\hline
+Vector & FVector & \#include "Math/Vector.h" \\ 
+\hline
+Rotator & FRotator & \#include "Math/Rotator.h" \\ 
+\hline
+Text & FText & \#include "Internationalization/Text.h" \\ 
+ \hline
+Actor & AActor & \#include "GameFramework/Actor.h" \\ 
+ \hline
+Static Mesh & UStaticMesh & \#include "Engine/StaticMesh.h"\\ 
+ \hline
+Skeletal Mesh & USkeletalMesh & \#include "Engine/SkeletalMesh.h" \\
+ \hline
+Texture2D & UTexture2D & \#include "Engine/StaticMesh.h"\\ 
+ \hline
+Material & UMaterial & \#include "Engine/Texture2D.h"\\  
+\hline
+\end{tabular}
+\end{center}
+
+\subsubsection{Модификаторы}
+Чтобы дать переменной в C++ особые свойства по типу - видимость в Unreal Engine Blueprints и так далее используется специальная конструкция - \textbf{UPROPERTY(<Params>)}. Вот основные параметры которые могут подаваться на вход:
+
+\begin{itemize}
+\item{BlueprintReadWrite - полная видимость в Blueprints}
+\item{EditAnywhere - аналогия EditOnSpawn}
+\item{Category="Name" \- - добавляет переменную в категорию Name}
+\end{itemize}
+
+Синтаксис:
+
+\begin{lstlisting}           
+
+{
+      UPROPERTY(BlueprintReadWrite, Category="Params")
+      int32 SIZE_X = 0;
+};
+
+\end{lstlisting}          
+
+\subsection{Функции}
+
+
+
+\newpage
 \section{Structs}
 \subsection{Создание структуры}
 
