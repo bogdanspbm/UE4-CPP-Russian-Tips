@@ -150,5 +150,13 @@ FORCEINLINE F<Name>::F<Name>(){
 };
 \end{lstlisting}         
 
-
+\section{Engine}
+\subsection{Debug}
+\subsubsection{Print String}
+\begin{lstlisting}[
+    basicstyle=\small, %or \small or \footnotesize etc.
+]   
+FString DebugMsg = FString::Printf(TEXT("<TEXT>: %f"), <INT>);
+GEngine->AddOnScreenDebugMessage(1, 5.0f, FColor::Green, DebugMsg);
+\end{lstlisting}         
 \end{document}
